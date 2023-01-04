@@ -111,5 +111,6 @@ function goToPokedex() {
     </div>
 </section>
     `
-    loadPokemons(0, 10)
+    offset = 0
+    loadPokemons(offset, limit)
 }
